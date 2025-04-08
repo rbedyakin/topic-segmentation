@@ -1,15 +1,9 @@
 # -*- coding: utf-8 -*-
 
-# import os
-# !pip install unsloth
-# # Install latest Hugging Face for Gemma-3!
-# !pip install --no-deps git+https://github.com/huggingface/transformers@v4.49.0-Gemma-3
+# Finetune Gemma3
 
-# !pip install --no-deps bitsandbytes accelerate xformers==0.0.29.post3 peft "trl==0.15.2" triton cut_cross_entropy unsloth_zoo
-# !pip install sentencepiece protobuf datasets huggingface_hub hf_transfer
-
-from unsloth import FastModel
 import torch
+from unsloth import FastModel
 from datasets import load_dataset
 from trl import SFTTrainer
 from transformers import TrainingArguments

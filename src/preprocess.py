@@ -1,3 +1,8 @@
+# -*- coding: utf-8 -*-
+
+# Preprocessing is based on https://github.com/alibaba-damo-academy/SpokenNLP/blob/main/emnlp2023-topic_segmentation/src/preprocess_data.py
+# with some modifications for llm
+
 import os
 import json
 
